@@ -24,7 +24,16 @@ const client21 = new Discord.Client();
 const client22 = new Discord.Client();
 const client23 = new Discord.Client();
 const client24 = new Discord.Client();
-
+const client25 = new Discord.Client();
+const client26 = new Discord.Client();
+const client27 = new Discord.Client();
+const client28 = new Discord.Client();
+const client29 = new Discord.Client();
+const client30 = new Discord.Client();
+const client31 = new Discord.Client();
+const client32 = new Discord.Client();
+const client33 = new Discord.Client();
+const client34 = new Discord.Client();
 
 
 client.login(process.env.TOKEN);
@@ -51,7 +60,16 @@ client21.login(process.env.TOKEN21);
 client22.login(process.env.TOKEN22); 
 client23.login(process.env.TOKEN23); 
 client24.login(process.env.TOKEN24); 
-
+client25.login(process.env.TOKEN16); 
+client26.login(process.env.TOKEN17); 
+client27.login(process.env.TOKEN18); 
+client28.login(process.env.TOKEN19); 
+client29.login(process.env.TOKEN20); 
+client30.login(process.env.TOKEN21); 
+client31.login(process.env.TOKEN22); 
+client32.login(process.env.TOKEN23); 
+client33.login(process.env.TOKEN24); 
+client34.login(process.env.TOKEN24); 
 
 
 client.on('message', message => {
@@ -438,6 +456,165 @@ message.channel.send('#profile')
   }
 });
 
+client25.on('message', message => {
+  if (message.content === '.d') {
+message.channel.send('#daily')
+  }
+  if(message.content === '.c'){
+message.channel.send('#credits')
+  }
+  if(message.content === '.p'){
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("$s")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client26.on('message', message => {
+  if (message.content === '.d') {
+message.channel.send('#daily')
+  }
+  if(message.content === '.c'){
+message.channel.send('#credits')
+  }
+  if(message.content === '.p'){
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("$s")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client27.on('message', message => {
+  if (message.content === '.d') {
+message.channel.send('#daily')
+  }
+  if(message.content === '.c'){
+message.channel.send('#credits')
+  }
+  if(message.content === '.p'){
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("$s")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client28.on('message', message => {
+  if (message.content === '.d') {
+message.channel.send('#daily')
+  }
+  if(message.content === '.c'){
+message.channel.send('#credits')
+  }
+  if(message.content === '.p'){
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("$s")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client29.on('message', message => {
+  if (message.content === '.d') {
+message.channel.send('#daily')
+  }
+  if(message.content === '.c'){
+message.channel.send('#credits')
+  }
+  if(message.content === '.p'){
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("$s")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client30.on('message', message => {
+  if (message.content === '.d') {
+message.channel.send('#daily')
+  }
+  if(message.content === '.c'){
+message.channel.send('#credits')
+  }
+  if(message.content === '.p'){
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("$s")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client31.on('message', message => {
+  if (message.content === '.d') {
+message.channel.send('#daily')
+  }
+  if(message.content === '.c'){
+message.channel.send('#credits')
+  }
+  if(message.content === '.p'){
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("$s")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client32.on('message', message => {
+  if (message.content === '.d') {
+message.channel.send('#daily')
+  }
+  if(message.content === '.c'){
+message.channel.send('#credits')
+  }
+  if(message.content === '.p'){
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("$s")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client33.on('message', message => {
+  if (message.content === '.d') {
+message.channel.send('#daily')
+  }
+  if(message.content === '.c'){
+message.channel.send('#credits')
+  }
+  if(message.content === '.p'){
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("$s")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client34.on('message', message => {
+  if (message.content === '.d') {
+message.channel.send('#daily')
+  }
+  if(message.content === '.c'){
+message.channel.send('#credits')
+  }
+  if(message.content === '.p'){
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("$s")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
 
 
 client.on('message', message => {
@@ -777,6 +954,131 @@ if (message.content === '$spam') {
 });
 
 
+client25.on('message', message => {
+if (message.content === '$spam') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 10000; x++) {
+        message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client26.on('message', message => {
+if (message.content === '$spam') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 10000; x++) {
+        message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client27.on('message', message => {
+if (message.content === '$spam') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 10000; x++) {
+        message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client28.on('message', message => {
+if (message.content === '$spam') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 10000; x++) {
+        message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client29.on('message', message => {
+if (message.content === '$spam') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 10000; x++) {
+        message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client30.on('message', message => {
+if (message.content === '$spam') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 10000; x++) {
+        message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client31.on('message', message => {
+if (message.content === '$spam') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 10000; x++) {
+        message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client32.on('message', message => {
+if (message.content === '$spam') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 10000; x++) {
+        message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client33.on('message', message => {
+if (message.content === '$spam') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 10000; x++) {
+        message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
 
 client.on('message', message => {
     if(message.content === '!rep'){
@@ -923,6 +1225,66 @@ client23.on('message', message => {
 });
 
 client24.on('message', message => {
+    if(message.content === '!rep'){
+        message.channel.send("#rep "+"<@" + myid + ">")
+    }
+});
+
+client25.on('message', message => {
+    if(message.content === '!rep'){
+        message.channel.send("#rep "+"<@" + myid + ">")
+    }
+});
+
+client26.on('message', message => {
+    if(message.content === '!rep'){
+        message.channel.send("#rep "+"<@" + myid + ">")
+    }
+});
+
+client27.on('message', message => {
+    if(message.content === '!rep'){
+        message.channel.send("#rep "+"<@" + myid + ">")
+    }
+});
+
+client28.on('message', message => {
+    if(message.content === '!rep'){
+        message.channel.send("#rep "+"<@" + myid + ">")
+    }
+});
+
+client29.on('message', message => {
+    if(message.content === '!rep'){
+        message.channel.send("#rep "+"<@" + myid + ">")
+    }
+});
+
+client30.on('message', message => {
+    if(message.content === '!rep'){
+        message.channel.send("#rep "+"<@" + myid + ">")
+    }
+});
+
+client31.on('message', message => {
+    if(message.content === '!rep'){
+        message.channel.send("#rep "+"<@" + myid + ">")
+    }
+});
+
+client32.on('message', message => {
+    if(message.content === '!rep'){
+        message.channel.send("#rep "+"<@" + myid + ">")
+    }
+});
+
+client33.on('message', message => {
+    if(message.content === '!rep'){
+        message.channel.send("#rep "+"<@" + myid + ">")
+    }
+});
+
+client34.on('message', message => {
     if(message.content === '!rep'){
         message.channel.send("#rep "+"<@" + myid + ">")
     }
